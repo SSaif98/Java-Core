@@ -1,0 +1,22 @@
+package Inheritence;
+
+public class parentDemo {
+
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+
+}
+
+String name= "Rahul";
+
+public parentDemo()
+{
+System.out.println("Parent class construtor");
+
+}
+public void getData()
+{
+System.out.println(" I am parent class");
+}
+
+}
