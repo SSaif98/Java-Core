@@ -26,10 +26,7 @@ public class java_contructor_2 extends java_constructor {
 		System.out.println("\nHobby: "+jc2.hobby);
 		
 		jc2.getDate();
-		jc2.getDate();
-
-		jc2.getDate();
-
+		
 
 	}
 

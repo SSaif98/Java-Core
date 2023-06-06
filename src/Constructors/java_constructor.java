@@ -2,8 +2,8 @@ package Constructors;
 
 public class java_constructor {
 	
-	protected String name="Saif";
-	protected int age=25;
+	public String name="Saif";
+	public int age=25;
 
 	public java_constructor(String name, int age){
 		this.name=name;
@@ -16,7 +16,9 @@ public class java_constructor {
 	}
 	
 	public void getData() {
-		System.out.println("I'm Parent Class");
+		String name="Haider";
+		int age=90;
+		System.out.println("\nI'm Parent Class\nName: "+name+"\nAge: "+age);
 
 	}
 	public void personalInfo() {
@@ -32,11 +34,11 @@ public class java_constructor {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		java_constructor jc= new java_constructor("haider",30);
+		java_constructor jc= new java_constructor("saif",30);
 		java_constructor jc3= new java_constructor();
 
 		jc.personalInfo();
-		
+		jc.getData();
 		
 		
 	}
