@@ -1,9 +1,13 @@
 package coreJava;
 
+import Arrays.ArrayDemo;
+
 public class loopdemo {
 
 	public static void main(String[] args) {
 
+		ArrayDemo ad= new ArrayDemo();
+		ad.getData(); 
 		// WhileLoop
 
 		/*

@@ -4,6 +4,10 @@ public class multiDimentionalArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		ArrayDemo ad= new ArrayDemo();
+		
+		ad.getData();
 
 		int a[][] = new int[2][3];
 

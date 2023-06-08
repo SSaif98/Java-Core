@@ -3,6 +3,10 @@ package Arrays;
 import java.lang.reflect.Array;
 
 public class ArrayDemo {
+	
+	public void getData() {
+		System.out.println("this is data");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

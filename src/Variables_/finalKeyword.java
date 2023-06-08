@@ -10,11 +10,14 @@ public class finalKeyword {
 		// TODO Auto-generated method stub
 		
 		final int i=90;
-		
-	}
 
+	}
+ 
 }
 
 
 //Final class can not be extended.
-//Final method can not be override
+//Final method can not be override 
+// Final is about restricting 
+//Final variables can not be reinitiated
+
